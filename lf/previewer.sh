@@ -37,6 +37,10 @@ if [ -n "$FIFO_UEBERZUG" ]; then
 			ffmpeg -ss 00:00:01.000 -i $file -vframes 1 $cache
       draw "$cache" "$@"
       ;;
+		application/zip)
+			unzip -l "$file"
+			;;
+
     *)
 			bat -f $file
   esac
