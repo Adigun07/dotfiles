@@ -23,7 +23,7 @@ conform.setup({
 	},
 })
 
-vim.keymap.set({ "n", "v" }, "<leader>p", function()
+vim.keymap.set({ "n", "v" }, "<leader>f", function()
 	conform.format({
 		lsp_fallback = true,
 		async = false,
