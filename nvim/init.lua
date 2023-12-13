@@ -83,7 +83,7 @@ local plugins = {
 		config = function()
 			require("tokyonight").setup({
 				on_colors = function(colors)
-					colors.bg = "#0f111a"
+					colors.bg = "#00000f"
 				end,
 			})
 			vim.cmd([[colorscheme tokyonight-night]])
