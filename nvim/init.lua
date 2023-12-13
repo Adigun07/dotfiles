@@ -17,6 +17,10 @@ vim.opt.swapfile = false
 vim.opt.backup = false
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
+vim.opt.foldcolumn = "1"
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.opt.foldlevel = 20
 vim.cmd([[
 set mouse=
 ]])
