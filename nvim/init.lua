@@ -71,7 +71,11 @@ local plugins = {
 
 	{ "numToStr/Comment.nvim", config = true },
 	{ "windwp/nvim-autopairs", config = true },
-	{ "ThePrimeagen/harpoon" },
+	{
+		"ThePrimeagen/harpoon",
+		branch = "harpoon2",
+		dependencies = { "nvim-lua/plenary.nvim" },
+	},
 	{ "mbbill/undotree" },
 	{ "folke/trouble.nvim", dependencies = { "nvim-tree/nvim-web-devicons" } },
 	{ "folke/neodev.nvim" },
