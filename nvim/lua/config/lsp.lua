@@ -5,6 +5,7 @@ local servers = {
 	"cssls",
 	"lua_ls",
 	"html",
+	"pylsp",
 }
 
 -- Set up lspconfig.
