@@ -23,7 +23,6 @@ vim.opt.foldlevel = 20
 vim.cmd([[
 set mouse=
 ]])
-vim.o.mouse = false
 vim.keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true }) --to keep the page centered when using ctrl d
 vim.keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true }) --to keep the page centered when using ctrl u
 vim.keymap.set("n", "J", "mzJ`z")
