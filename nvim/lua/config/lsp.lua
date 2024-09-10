@@ -1,6 +1,6 @@
 local servers = {
 	"jsonls",
-	"tsserver",
+	"ts_ls",
 	"emmet_language_server",
 	"cssls",
 	"lua_ls",
